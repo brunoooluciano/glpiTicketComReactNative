@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "glpi_tickets_thermomant",
+    "slug": "glpi_tickets_thermomant",
+    "extra": {
+      "API_URL": "http://suporte.thermomant.com.br/apirest.php"
+    },
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/Logo300x300.png",
+    "scheme": "glpi_tickets_thermomant",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/Logo300x300.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/Logo300x300.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/Logo300x300.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
